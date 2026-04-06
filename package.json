@@ -1,0 +1,21 @@
+{
+  "name": "arena-web3-game-platform",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": [
+    "contracts",
+    "backend",
+    "frontend",
+    "admin",
+    "shared"
+  ],
+  "scripts": {
+    "install:all": "pnpm -w install",
+    "build:all": "pnpm -w -r run build",
+    "start:backend": "pnpm --filter backend start",
+    "dev:backend": "pnpm --filter backend dev",
+    "dev:frontend": "pnpm --filter frontend dev",
+    "dev:admin": "pnpm --filter admin dev",
+    "test": "echo \"Run tests per package\""
+  }
+}

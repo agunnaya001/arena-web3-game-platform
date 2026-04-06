@@ -1,0 +1,21 @@
+{
+  "name": "contracts",
+  "version": "0.1.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "hardhat compile",
+    "deploy": "hardhat deploy"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.2.3",
+    "@typechain/ethers-v6": "^15.0.2",
+    "@types/node": "^20.0.0",
+    "dotenv": "^16.0.0",
+    "hardhat": "^2.17.0",
+    "hardhat-deploy": "^0.11.23",
+    "typechain": "^8.3.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6",
+    "@openzeppelin/contracts": "^5.0.0"
+  }
+}
